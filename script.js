@@ -5,42 +5,49 @@ function playIntro(){
     playScreen.style.display = "block";
 
     music.play();
-    Titlescreen();
 
-    function Titlescreen(){
+    setTimeout(function Titlescreen(){
         document.getElementById('afbeelding1').style.display = "block";
-        }
-
+    })
 
     setTimeout(function Jake(){
-
-    }, 1000)
+        document.getElementById('afbeelding1').style.display = "none";
+        document.getElementById('afbeelding2').style.display = "block";
+    },2200);
 
     setTimeout(function Rosa(){
-
-    }, 1000)
+        document.getElementById('afbeelding2').style.display = "none";
+        document.getElementById('afbeelding3').style.display = "block";
+    }, 4400)
 
     setTimeout(function Terry(){
-
-    }, 1000)
+        document.getElementById('afbeelding3').style.display = "none";
+        document.getElementById('afbeelding4').style.display = "block";
+    }, 6600)
 
     setTimeout(function Amy(){
-
-    }, 1000)
+        document.getElementById('afbeelding4').style.display = "none";
+        document.getElementById('afbeelding5').style.display = "block";
+    }, 8800)
 
     setTimeout(function Charles(){
-
-    }, 1000)
+        document.getElementById('afbeelding5').style.display = "none";
+        document.getElementById('afbeelding6').style.display = "block";
+    }, 11000)
 
     setTimeout(function Gina(){
-
-    }, 1000)
+        document.getElementById('afbeelding6').style.display = "none";
+        document.getElementById('afbeelding7').style.display = "block";
+    }, 13200)
 
     setTimeout(function Holt(){
-
-    }, 1000)
+        document.getElementById('afbeelding7').style.display = "none";
+        document.getElementById('afbeelding8').style.display = "block";
+    }, 15400)
 
     setTimeout(function Author(){
-
-    }, 1000)
+        document.getElementById('afbeelding8').style.display = "none";
+        document.getElementById('afbeelding9').style.display = "block";
+    }, 17600)
 }
+

@@ -20,9 +20,60 @@
 </section>
 
 <section id="playScreen" style="display: none">
-    <div id="afbeelding1" class="afbeelding">
-        <img src="img/afbeelding1.png">
+    <div class="container-text">
+        <div id="title" class="title">
+            <div class="brooklyn">
+                <h1>
+                    BROOKLYN
+                </h1>
+            </div>
+            <div class="nine-nine">
+                <p>
+                    NINE-NINE
+                </p>
+            </div>
+        </div>
+
     </div>
+
+    <div class="afbeelding">
+        <div id="afbeelding1" class="afbeelding">
+            <img src="img/afbeelding1.png">
+        </div>
+
+        <div id="afbeelding2" style="display: none">
+            <img src="img/afbeelding2.png">
+        </div>
+
+        <div id="afbeelding3" style="display: none">
+            <img src="img/afbeelding3.png">
+        </div>
+
+        <div id="afbeelding4" style="display: none">
+            <img src="img/afbeelding4.png">
+        </div>
+
+        <div id="afbeelding5" style="display: none">
+            <img src="img/afbeelding5.png">
+        </div>
+
+        <div id="afbeelding6" style="display: none">
+            <img src="img/afbeelding6.png">
+        </div>
+
+        <div id="afbeelding7" style="display: none">
+            <img src="img/afbeelding7.png">
+        </div>
+
+        <div id="afbeelding8" style="display: none">
+            <img src="img/afbeelding8.png">
+        </div>
+
+        <div id="afbeelding9" style="display: none">
+            <img src="img/afbeelding9.png">
+        </div>
+    </div>
+
 </section>
 
 </body>
