@@ -15,6 +15,45 @@
     <div class="container-startscreen">
         <h1>BROOKLYN NINE-NINE</h1>
         <p>by Mette Ghijsen</p>
+
+        <table>
+            <tr>
+                <td><label>Jake</label></td>
+                <td><input type="text" id="FirstNameJake" maxlength="10" placeholder="First name"></td>
+                <td><input type="text" id="LastNameJake" maxlength="10" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td><label>Rosa</label></td>
+                <td><input type="text" id="FirstNameRosa" maxlength="10" placeholder="First name"></td>
+                <td><input type="text" id="LastNameRosa" maxlength="10" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td><label>Terry</label></td>
+                <td><input type="text" id="FirstNameTerry" maxlength="10" placeholder="First name"></td>
+                <td><input type="text" id="LastNameTerry" maxlength="10" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td><label>Amy</label></td>
+                <td><input type="text" id="FirstNameAmy" maxlength="10" placeholder="First name"></td>
+                <td><input type="text" id="LastNameAmy" maxlength="10" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td><label>Charles</label></td>
+                <td><input type="text" id="FirstNameCharles" maxlength="10" placeholder="First name"></td>
+                <td><input type="text" id="LastNameCharles" maxlength="10" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td><label>Gina</label></td>
+                <td><input type="text" id="FirstNameGina" maxlength="10" placeholder="First name"></td>
+                <td><input type="text" id="LastNameGina" maxlength="10" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td><label>Holt</label></td>
+                <td><input type="text" id="FirstNameHolt" maxlength="10" placeholder="First name"></td>
+                <td><input type="text" id="LastNameHolt" maxlength="10" placeholder="Last name"></td>
+            </tr>
+        </table>
+
         <input onclick="playIntro()" type="submit" id="buttonStart" class="playbutton" value="START">
     </div>
 </section>
@@ -37,45 +76,45 @@
         <div class="character-description">
             <div class="jake" id="jake" style="display: none">
                 <p>starring</p>
-                <h1>ANDY </h1>
-                <h1>SAMBERG</h1>
+                <h1 id="FirstNameActorJake">ANDY </h1>
+                <h1 id="LastNameActorJake">SAMBERG</h1>
             </div>
 
             <div class="rosa" id="rosa" style="display: none">
-                <h1>STEPHANIE <br>
-                    BEATRIZ</h1>
+                <h1 id="FirstNameActorRosa">STEPHANIE </h1>
+                <h1 id="LastNameActorRosa">BEATRIZ</h1>
             </div>
 
             <div class="terry" id="terry" style="display: none">
-                <h1>TERRY <br>
-                    CREWS</h1>
+                <h1 id="FirstNameActorTerry">TERRY</h1>
+                <h1 id="LastNameActorTerry">CREWS</h1>
             </div>
 
             <div class="amy" id="amy" style="display: none">
-                <h1>MELISSA <br>
-                    FUMERO</h1>
+                <h1 id="FirstNameActorAmy">MELISSA </h1>
+                <h1 id="LastNameActorAmy">FUMERO</h1>
             </div>
 
             <div class="charles" id="charles" style="display: none">
-                <h1>JOE <br>
-                    LO TRUGLIO</h1>
+                <h1 id="FirstNameActorCharles">JOE </h1>
+                <h1 id="LastNameActorCharles">LOTRUGLIO</h1>
             </div>
 
             <div class="gina" id="gina" style="display: none">
-                <h1>CHELSEA <br>
-                    PERETTI</h1>
+                <h1 id="FirstNameActorGina">CHELSEA </h1>
+                <h1 id="LastNameActorGina">PERETTI</h1>
             </div>
 
             <div class="holt" id="holt" style="display: none">
                 <p>and</p>
-                <h1>ANDRE <br>
-                    BRAUGHTER</h1>
+                <h1 id="FirstNameActorHolt">ANDRE </h1>
+                <h1 id="LastNameActorHolt">BRAUGHTER</h1>
             </div>
 
             <div class="creator" id="creator" style="display: none">
                 <p>created by</p>
-                <h1>METTE <br>
-                    GHIJSEN</h1>
+                <h1>METTE </h1>
+                <h1>GHIJSEN</h1>
             </div>
         </div>
     </div>

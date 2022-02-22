@@ -1,9 +1,65 @@
 const music = new Audio('Brooklyn Nine-Nine intro.mp3');
 
 function playIntro(){
+    //waardes in intro veranderen naar textbox waardes
+    let FirstNameActorJake = document.getElementById("FirstNameActorJake");
+    let LastNameActorJake = document.getElementById("LastNameActorJake");
+    let FirstNameJake = document.getElementById("FirstNameJake").value||"ANDY";
+    let LastNameJake = document.getElementById("LastNameJake").value||"SAMBERG";
+
+    FirstNameActorJake.innerHTML = FirstNameJake.toUpperCase();
+    LastNameActorJake.innerHTML = LastNameJake.toUpperCase();
+
+    let FirstNameActorRosa = document.getElementById("FirstNameActorRosa");
+    let LastNameActorRosa = document.getElementById("LastNameActorRosa");
+    let FirstNameRosa = document.getElementById("FirstNameRosa").value||"STEPHANIE";
+    let LastNameRosa = document.getElementById("LastNameRosa").value||"BEATRIZ";
+
+    FirstNameActorRosa.innerHTML = FirstNameRosa.toUpperCase();
+    LastNameActorRosa.innerHTML = LastNameRosa.toUpperCase();
+
+    let FirstNameActorTerry = document.getElementById("FirstNameActorTerry");
+    let LastNameActorTerry = document.getElementById("LastNameActorTerry");
+    let FirstNameTerry = document.getElementById("FirstNameTerry").value||"TERRY";
+    let LastNameTerry = document.getElementById("LastNameTerry").value||"CREWS";
+
+    FirstNameActorTerry.innerHTML = FirstNameTerry.toUpperCase();
+    LastNameActorTerry.innerHTML = LastNameTerry.toUpperCase();
+
+    let FirstNameActorAmy = document.getElementById("FirstNameActorAmy");
+    let LastNameActorAmy = document.getElementById("LastNameActorAmy");
+    let FirstNameAmy = document.getElementById("FirstNameAmy").value||"MELISSA";
+    let LastNameAmy = document.getElementById("LastNameAmy").value||"FUMERO";
+
+    FirstNameActorAmy.innerHTML = FirstNameAmy.toUpperCase();
+    LastNameActorAmy.innerHTML = LastNameAmy.toUpperCase();
+
+    let FirstNameActorCharles = document.getElementById("FirstNameActorCharles");
+    let LastNameActorCharles = document.getElementById("LastNameActorCharles");
+    let FirstNameCharles = document.getElementById("FirstNameCharles").value||"JOE";
+    let LastNameCharles= document.getElementById("LastNameCharles").value||"LOTRUGLIO";
+
+    FirstNameActorCharles.innerHTML = FirstNameCharles.toUpperCase();
+    LastNameActorCharles.innerHTML = LastNameCharles.toUpperCase();
+
+    let FirstNameActorGina = document.getElementById("FirstNameActorGina");
+    let LastNameActorGina = document.getElementById("LastNameActorGina");
+    let FirstNameGina= document.getElementById("FirstNameGina").value||"CHELSEA";
+    let LastNameGina = document.getElementById("LastNameGina").value||"PERETTI";
+
+    FirstNameActorGina.innerHTML = FirstNameGina.toUpperCase();
+    LastNameActorGina.innerHTML = LastNameGina.toUpperCase();
+
+    let FirstNameActorHolt = document.getElementById("FirstNameActorHolt");
+    let LastNameActorHolt = document.getElementById("LastNameActorHolt");
+    let FirstNameHolt= document.getElementById("FirstNameHolt").value||"ANDRE";
+    let LastNameHolt = document.getElementById("LastNameHolt").value||"BRAUGHTER";
+
+    FirstNameActorHolt.innerHTML = FirstNameHolt.toUpperCase();
+    LastNameActorHolt.innerHTML = LastNameHolt.toUpperCase();
+
     startScreen.style.display = "none";
     playScreen.style.display = "block";
-
     music.play(); //muziek gaat aan
 
     setTimeout(function Titlescreen(){ //titelscherm komt in beeld

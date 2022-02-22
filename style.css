@@ -12,11 +12,6 @@ html, body {
 }
 
 @font-face {
-    font-family: "impact";
-    src: url(fonts/impact.ttf) format("truetype");
-}
-
-@font-face {
     font-family: "Univers extra black extended oblique";
     src: url(fonts/UniversLT93ExtraBlackExtendedOblique.ttf) format("truetype");
 }
@@ -30,7 +25,7 @@ html, body {
 }
 
 h1{
-    font-family: Impact;
+    font-family: "Univers extra black extended oblique";
     font-size: 70px;
     color: white;
 }
@@ -42,8 +37,8 @@ p{
     margin-top: -50px;
 }
 
-
 .playbutton{
+    margin-top: 50px;
     display:inline-block;
     padding: 15px 70px;
     border: 5px solid #FFFFFF;
@@ -268,7 +263,7 @@ p{
     padding-left: 600px;
     padding-right: 600px;
     transform: rotate(6deg) translateY(200px);
-    line-height: 90px;
+    line-height: 30px;
 }
 
 .terry{
@@ -276,7 +271,7 @@ p{
     padding-left: 1400px;
     padding-right: 1400px;
     transform: rotate(6deg) translateY(300px) translateX(-250px);
-    line-height: 90px;
+    line-height: 30px;
     margin-left: -50px;
 }
 
@@ -285,7 +280,7 @@ p{
     padding-left: 700px;
     padding-right: 1200px;
     transform: rotate(6deg) translateY(-160px) translateX(-400px);
-    line-height: 90px;
+    line-height: 30px;
 }
 
 .charles{
@@ -293,15 +288,15 @@ p{
     padding-left: 600px;
     padding-right: 600px;
     transform: rotate(4deg) translateY(120px);
-    line-height: 90px;
+    line-height: 30px;
 }
 
 .gina{
     background-color: rgb(0,123,245);
-    padding-left: 600px;
+    padding-left: 900px;
     padding-right: 600px;
     transform: rotate(-5deg) translateY(200px);
-    line-height: 90px;
+    line-height: 30px;
 }
 
 .holt{
@@ -309,14 +304,21 @@ p{
     padding-left: 600px;
     padding-right: 600px;
     transform: rotate(6deg) translateY(200px);
-    line-height: 90px;
+    line-height: 30px;
 }
 
 .creator{
     margin-left: -200px;
     background-color: #0358bc;
+    line-height: 30px;
     padding-left: 800px;
     padding-right: 800px;
     transform: rotate(4deg) translateY(220px);
+}
+
+label{
+    color: white;
+    text-align: left;
+    font-family: "Helvetica Neue Medium Extended";
 }
 
